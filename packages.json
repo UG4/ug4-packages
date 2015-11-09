@@ -1,0 +1,96 @@
+{
+	"version": "1.0.0",
+	"packages": [
+		{
+			"name":				"ugcore",
+			"url":				"https://github.com/UG4/ugcore.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "core"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"boost_for_ug4"
+						}
+					]
+				}
+			]
+		},
+
+
+		{
+			"name":				"BoostForUG4",
+			"url":				"https://github.com/UG4/external_BoostForUG4.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"externals",
+			"license":			"boost",
+			"categories":		["externals"]
+		},
+
+
+		{
+			"name":				"ConvectionDiffusion",
+			"url":				"https://github.com/UG4/plugin_ConvectionDiffusion.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+
+		{
+			"name":				"Sample",
+			"url":				"https://github.com/UG4/plugin_Sample.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"name":				"SmallStrainMechanics",
+			"url":				"https://github.com/UG4/plugin_SmallStrainMechanics.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		}
+	]
+}
