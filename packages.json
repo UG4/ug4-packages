@@ -1,5 +1,5 @@
 {
-	"version": "1.0.0",
+	"minUGHubVersion":	"1.0.0",
 	"packages": [
 		{
 			"name":				"BoostForUG4",
