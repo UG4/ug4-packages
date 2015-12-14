@@ -96,6 +96,27 @@
 
 
 		{
+			"name":				"ProMesh",
+			"url":				"https://github.com/UG4/plugin_ProMesh.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+
+		{
 			"name":				"ugcore",
 			"url":				"https://github.com/UG4/ugcore.git",
 			"repoType":			"git",
