@@ -38,13 +38,33 @@
 			"repoType":			"git",
 			"defaultBranch":	"master",
 			"prefix":			"plugins",
-			"license":			"",
+			"license":			"lgpl_ug4",
 			"categories":		["ug4", "plugins"],
 			"dependencies":		[
 				{
 					"packages":	[
 						{
 							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"name":				"Examples",
+			"url":				"https://github.com/UG4/app_Examples.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"apps",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "apps"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ConvectionDiffusion",
 							"branch":	"master"
 						}
 					]
@@ -99,8 +119,8 @@
 
 
 		{
-			"name":				"Sample",
-			"url":				"https://github.com/UG4/plugin_Sample.git",
+			"name":				"SmallStrainMechanics",
+			"url":				"https://github.com/UG4/plugin_SmallStrainMechanics.git",
 			"repoType":			"git",
 			"defaultBranch":	"master",
 			"prefix":			"plugins",
@@ -120,8 +140,8 @@
 
 
 		{
-			"name":				"SmallStrainMechanics",
-			"url":				"https://github.com/UG4/plugin_SmallStrainMechanics.git",
+			"name":				"TemplatePlugin",
+			"url":				"https://github.com/UG4/plugin_TemplatePlugin.git",
 			"repoType":			"git",
 			"defaultBranch":	"master",
 			"prefix":			"plugins",
