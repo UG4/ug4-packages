@@ -73,6 +73,26 @@
 		},
 
 		{
+			"name":				"NeurolucidaApp",
+			"url":				"https://github.com/NeuroBox3D/app_Neurolucida.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"apps",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "apps"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+
+		{
 			"name":				"LuaShell",
 			"url":				"https://github.com/UG4/plugin_LuaShell.git",
 			"repoType":			"git",
