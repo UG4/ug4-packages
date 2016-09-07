@@ -71,30 +71,6 @@
 				}
 			]
 		},
-
-		{
-			"name":				"Neurolucida_app",
-			"url":				"https://github.com/NeuroBox3D/app_Neurolucida.git",
-			"repoType":			"git",
-			"defaultBranch":	"master",
-			"prefix":			"apps",
-			"license":			"lgpl_ug4",
-			"categories":		["ug4", "apps"],
-			"dependencies":		[
-				{
-					"packages":	[
-						{
-							"name":		"ugcore",
-							"branch":	"master"
-						},
-						{
-							"name":		"Neurolucida",
-							"branch":	"master"
-						}
-					]
-				}
-			]
-		},
 		
 		{
 			"name":				"Neurolucida",
