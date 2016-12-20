@@ -73,6 +73,26 @@
 		},
 
 		{
+			"name":				"electromagnetism_app",
+			"url":				"https://github.com/UG4/app_Electromagnetism.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"apps",
+			"license":			"",
+			"categories":		["ug4", "apps"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"Electromagnetism",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+		{
 			"name":				"Examples",
 			"url":				"https://github.com/UG4/app_Examples.git",
 			"repoType":			"git",
