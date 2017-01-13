@@ -33,6 +33,26 @@
 		},
 
 		{
+			"name":				"DemoPlugin",
+			"url":				"https://github.com/UG4/plugin_DemoPlugin.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+		{
 			"name":				"DocuGen",
 			"url":				"https://github.com/UG4/plugin_DocuGen.git",
 			"repoType":			"git",
