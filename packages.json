@@ -237,6 +237,16 @@
 					]
 				}
 			]
+		},
+
+		{
+			"name":				"ugvec",
+			"url":				"https://github.com/UG4/tool_ugvec.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"tools",
+			"license":			"MPL 2.0",
+			"categories":		["ug4", "tools"]
 		}
 	]
 }
