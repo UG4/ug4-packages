@@ -126,6 +126,10 @@
 						{
 							"name":		"ConvectionDiffusion",
 							"branch":	"master"
+						},
+						{
+							"name":		"SmallStrainMechanics",
+							"branch":	"master"
 						}
 					]
 				}
