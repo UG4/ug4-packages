@@ -73,6 +73,16 @@
 		},
 
 		{
+			"name":				"EigenForUG4",
+			"url":				"https://github.com/UG4/external_EigenForUG4.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"externals",
+			"license":			"mpl2",
+			"categories":		["externals"]
+		},
+
+		{
 			"name":				"Electromagnetism",
 			"url":				"https://github.com/UG4/plugin_Electromagnetism.git",
 			"repoType":			"git",
@@ -246,6 +256,9 @@
 					"packages":	[
 						{
 							"name":		"BoostForUG4"
+						},
+						{
+							"name":		"EigenForUG4"
 						}
 					]
 				}
