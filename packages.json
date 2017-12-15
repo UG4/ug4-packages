@@ -166,6 +166,49 @@
 			]
 		},
 		
+		{
+			"name":				"NavierStokes",
+			"url":				"https://github.com/UG4/plugin_NavierStokes.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"name":				"navier_stokes",
+			"url":				"https://github.com/UG4/app_NavierStokes.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"apps",
+			"license":			"",
+			"categories":		["ug4", "apps"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ConvectionDiffusion",
+							"branch":	"master"
+						},
+						{
+							"name":		"NavierStokes",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
 
 		{
 			"name":				"ProMesh",
