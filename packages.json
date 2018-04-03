@@ -22,10 +22,21 @@
 			"categories":		["ug4", "plugins"],
 			"dependencies":[
 				{
+					"branch": "master",
 					"packages":	[
 						{
 							"name":		"ugcore",
 							"branch":	"master"
+						}
+					]
+				},
+
+				{
+					"branch": "2018.4.3.1",
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"2018.4.3.1"
 						}
 					]
 				}
@@ -92,10 +103,20 @@
 			"categories":		["ug4", "plugins"],
 			"dependencies":[
 				{
+					"branch": "master",
 					"packages":	[
 						{
 							"name":		"ugcore",
 							"branch":	"master"
+						}
+					]
+				},
+				{
+					"branch": "2018.4.3.1",
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"2018.4.3.1"
 						}
 					]
 				}
@@ -176,10 +197,20 @@
 			"categories":		["ug4", "plugins"],
 			"dependencies":[
 				{
+					"branch": "master",
 					"packages":	[
 						{
 							"name":		"ugcore",
 							"branch":	"master"
+						}
+					]
+				},
+				{
+					"branch": "2018.4.3.1",
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"2018.4.3.1"
 						}
 					]
 				}
@@ -220,6 +251,7 @@
 			"categories":		["ug4", "plugins"],
 			"dependencies":[
 				{
+					"branch": "master",
 					"packages":	[
 						{
 							"name":		"ugcore",
@@ -228,6 +260,20 @@
 						{
 							"name":		"LuaShell",
 							"branch":	"master"
+						}
+					]
+				},
+
+				{
+					"branch": "2018.4.3.1",
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"2018.4.3.1"
+						},
+						{
+							"name":		"LuaShell",
+							"branch":	"2018.4.3.1"
 						}
 					]
 				}
@@ -245,10 +291,20 @@
 			"categories":		["ug4", "plugins"],
 			"dependencies":[
 				{
+					"branch": "master",
 					"packages":	[
 						{
 							"name":		"ugcore",
 							"branch":	"master"
+						}
+					]
+				},
+				{
+					"branch": "2018.4.3.1",
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"2018.4.3.1"
 						}
 					]
 				}
@@ -296,12 +352,28 @@
 			"categories":		["ug4", "core"],
 			"dependencies":[
 				{
+					"branch": "master",
 					"packages":	[
 						{
-							"name":		"BoostForUG4"
+							"name":		"BoostForUG4",
+							"branch": 	"master"
 						},
 						{
-							"name":		"EigenForUG4"
+							"name":		"EigenForUG4",
+							"branch": 	"master"
+						}
+					]
+				},
+				{
+					"branch": "2018.4.3.1",
+					"packages":	[
+						{
+							"name":		"BoostForUG4",
+							"branch": 	"2018.4.3.1"
+						},
+						{
+							"name":		"EigenForUG4",
+							"branch": 	"2018.4.3.1"
 						}
 					]
 				}
