@@ -177,10 +177,20 @@
 			"categories":		["ug4", "plugins"],
 			"dependencies":[
 				{
+					"branch": "master",
 					"packages":	[
 						{
 							"name":		"ugcore",
 							"branch":	"master"
+						}
+					]
+				},
+				{
+					"branch": "2018.4.3.1",
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"2018.4.3.1"
 						}
 					]
 				}
