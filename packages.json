@@ -161,6 +161,14 @@
 						{
 							"name":		"SmallStrainMechanics",
 							"branch":	"master"
+						},
+						{
+							"name":		"Electromagnetism",
+							"branch":	"master"
+						},
+						{
+							"name":		"NavierStokes",
+							"branch":	"master"
 						}
 					]
 				}
