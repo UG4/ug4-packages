@@ -437,5 +437,25 @@
 			"license":			"MPL 2.0",
 			"categories":		["ug4", "tools"]
 		}
+		
+		{
+			"name":				"UGTest",
+			"url":				"https://github.com/UG4/plugin_UGtest.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
 	]
 }
