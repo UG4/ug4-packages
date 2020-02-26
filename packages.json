@@ -10,8 +10,15 @@
 			"license":			"boost",
 			"categories":		["externals"]
 		},
-
-
+		{
+			"name":				"JSONForUG4",
+			"url":				"https://github.com/UG4/external_JSON.git",
+			"repoType":			"git",
+			"defaultBranch":		"master",
+			"prefix":			"externals",
+			"license":			"MIT",
+			"categories":		["externals"]
+		},
 		{
 			"name":				"ConvectionDiffusion",
 			"url":				"https://github.com/UG4/plugin_ConvectionDiffusion.git",
