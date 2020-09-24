@@ -202,6 +202,27 @@
 			]
 		},
 
+	    	{
+			"name":				"Limex",
+			"url":				"https://github.com/UG4/plugin_Limex.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+
 		{
 			"name":				"LuaShell",
 			"url":				"https://github.com/UG4/plugin_LuaShell.git",
