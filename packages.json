@@ -208,7 +208,7 @@
 			"defaultBranch":		"master",
 			"prefix":			"plugins",
 			"license":			"BSD",
-			"categories":		["plugins"],
+			"categories":		["plugins"]
 		},
 	    	{
 			"name":				"Limex",
