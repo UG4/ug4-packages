@@ -207,8 +207,8 @@
 			"repoType":			"git",
 			"defaultBranch":		"master",
 			"prefix":			"plugins",
-			"license":			"BSD,
-			"categories":		["plugins"]
+			"license":			"BSD",
+			"categories":		["plugins"],
 		},
 	    	{
 			"name":				"Limex",
