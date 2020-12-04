@@ -208,7 +208,19 @@
 			"defaultBranch":		"main",
 			"prefix":			"plugins",
 			"license":			"BSD",
-			"categories":		["plugins"]
+			"categories":			["plugins"],
+			"dependencies":[
+				{
+					"branch": "main",
+					"packages":	[
+						{
+							"name":		"tool_xeus-ug4-kernel",
+							"branch":	"main"
+						}
+					]
+				}
+			]
+
 		},
 	    	{
 			"name":				"Limex",
