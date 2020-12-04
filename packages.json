@@ -512,6 +512,15 @@
 					]
 				}
 			]
-		}
+		},
+		{
+			"name":				"tool_xeus-ug4",
+			"url":				"https://github.com/UG4/xeus-ug4.git",
+			"repoType":			"git",
+			"defaultBranch":		"main",
+			"prefix":			"tools",
+			"license":			"AGPL v3",
+			"categories":		["ug4", "tools"]
+		},
 	]
 }
