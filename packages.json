@@ -514,7 +514,7 @@
 			]
 		},
 		{
-			"name":				"tool_xeus-ug4",
+			"name":				"xeus-ug4-kernel",
 			"url":				"https://github.com/UG4/xeus-ug4.git",
 			"repoType":			"git",
 			"defaultBranch":		"main",
