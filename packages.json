@@ -205,7 +205,7 @@
 			"name":				"JupyterToolbox",
 			"url":				"https://github.com/UG4/plugin_JupyterToolbox.git",
 			"repoType":			"git",
-			"defaultBranch":		"master",
+			"defaultBranch":		"main",
 			"prefix":			"plugins",
 			"license":			"BSD",
 			"categories":		["plugins"]
