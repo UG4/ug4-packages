@@ -214,7 +214,7 @@
 					"branch": "main",
 					"packages":	[
 						{
-							"name":		"tool_xeus-ug4-kernel",
+							"name":		"xeus-ug4-kernel",
 							"branch":	"master"
 						}
 					]
