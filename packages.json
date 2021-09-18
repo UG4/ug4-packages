@@ -187,7 +187,15 @@
 						{
 							"name":		"NavierStokes",
 							"branch":	"master"
-						}
+						},
+            {
+              "name":   "ProMesh",
+              "branch": "master"
+            },
+            {
+              "name":   "tetgen",
+              "branch": "master"
+            }
 					]
 				}
 			]
