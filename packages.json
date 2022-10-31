@@ -92,6 +92,16 @@
 		},
 
 		{
+			"name":				"PybindForUG4",
+			"url":				"https://github.com/UG4/external_PybindForUG4.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"externals",
+			"license":			"bsd3-style",
+			"categories":		["externals"]
+		},
+
+		{
 			"name":				"Electromagnetism",
 			"url":				"https://github.com/UG4/plugin_Electromagnetism.git",
 			"repoType":			"git",
