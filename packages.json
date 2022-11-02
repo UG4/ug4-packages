@@ -95,7 +95,7 @@
 			"name":				"PybindForUG4",
 			"url":				"https://github.com/UG4/external_PybindForUG4.git",
 			"repoType":			"git",
-			"defaultBranch":	"master",
+			"defaultBranch":		"main",
 			"prefix":			"externals",
 			"license":			"bsd3-style",
 			"categories":		["externals"]
