@@ -415,6 +415,25 @@
 			]
 		},
 
+		{
+			"name":				"SuperLU6",
+			"url":				"https://github.com/UG4/plugin_SuperLU6.git",
+			"repoType":			"git",
+			"defaultBranch":		"master",
+			"prefix":			"plugins",
+			"license":			"individual",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
 
 		{
 			"name":				"TemplatePlugin",
