@@ -290,7 +290,7 @@
 				}
 			]
 		},
-		
+
 		{
 			"name":				"NavierStokes",
 			"url":				"https://github.com/UG4/plugin_NavierStokes.git",
@@ -522,7 +522,7 @@
 			"license":			"MPL 2.0",
 			"categories":		["ug4", "tools"]
 		},
-		
+
 		{
 			"name":				"UGTest",
 			"url":				"https://github.com/UG4/plugin_UGtest.git",
@@ -562,6 +562,7 @@
 				}
 			]
 		},
+
 		{
 			"name":				"xeus-ug4-kernel",
 			"url":				"https://github.com/UG4/xeus-ug4.git",
@@ -570,6 +571,30 @@
 			"prefix":			"tools",
 			"license":			"AGPL v3",
 			"categories":		["ug4", "tools"]
+		},
+
+		{
+			"name":				"Tutorials",
+			"url":				"https://github.com/UG4/app_Tutorials.git",
+			"repoType":			"git",
+			"defaultBranch":	"main",
+			"prefix":			"apps",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "apps"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						},
+						{
+							"name":		"ConvectionDiffusion",
+							"branch":	"master"
+						}
+					]
+				}
+			]
 		}
 	]
 }
