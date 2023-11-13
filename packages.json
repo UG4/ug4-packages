@@ -2,6 +2,15 @@
 	"minUGHubVersion":	"1.0.0",
 	"packages": [
 		{
+			"name":				"AutodiffForUG4",
+			"url":				"https://github.com/UG4/external_AutodiffForUG4.git",
+			"repoType":			"git",
+			"defaultBranch":		"main",
+			"prefix":			"externals",
+			"license":			"mit",
+			"categories":		["externals"]
+		},
+		{
 			"name":				"BoostForUG4",
 			"url":				"https://github.com/UG4/external_BoostForUG4.git",
 			"repoType":			"git",
