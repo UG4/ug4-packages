@@ -439,11 +439,11 @@
 							"branch":	"master"
 						},
 						{
-							"name":		"external_AutodiffForUG4",
+							"name":		"AutodiffForUG4",
 							"branch":	"main"
 						},
 						{
-							"name":		"external_JSONForUG4",
+							"name":		"JSONForUG4",
 							"branch":	"master"
 						}
 					]
