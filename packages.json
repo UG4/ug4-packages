@@ -355,6 +355,16 @@
 		},
 
 		{
+			"name":				"ParameterEstimator",
+			"url":				"https://github.com/UG4/tool_ParameterEstimator.git",
+			"repoType":			"git",
+			"defaultBranch":	"main",
+			"prefix":			"tools",
+			"license":			"GPL 3.0",
+			"categories":		["ug4", "tools"]
+		},
+
+		{
 			"name":				"ProMesh",
 			"url":				"https://github.com/UG4/plugin_ProMesh.git",
 			"repoType":			"git",
