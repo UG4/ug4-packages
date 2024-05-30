@@ -229,6 +229,25 @@
 			"categories":		["externals"]
 		},
 		{
+			"name":				"JSONToolkit",
+			"url":				"https://github.com/UG4/JSONToolkit.git",
+			"repoType":			"git",
+			"defaultBranch":	"main",
+			"prefix":			"plugins",
+			"license":			"TBD",
+			"categories":		["plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"JSONForUG4",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+		{
 			"name":				"JupyterToolbox",
 			"url":				"https://github.com/UG4/plugin_JupyterToolbox.git",
 			"repoType":			"git",
@@ -361,7 +380,17 @@
 			"defaultBranch":	"main",
 			"prefix":			"tools",
 			"license":			"GPL 3.0",
-			"categories":		["ug4", "tools"]
+			"categories":		["ug4", "tools"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"JSONToolkit",
+							"branch":	"main"
+						}
+					]
+				}
+			]
 		},
 
 		{
