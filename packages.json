@@ -232,10 +232,10 @@
 			"name":				"JSONToolkit",
 			"url":				"https://github.com/UG4/JSONToolkit.git",
 			"repoType":			"git",
-			"defaultBranch":	"main",
+			"defaultBranch":		"main",
 			"prefix":			"plugins",
 			"license":			"TBD",
-			"categories":		["plugins"],
+			"categories":			["plugins"],
 			"dependencies":[
 				{
 					"packages":	[
