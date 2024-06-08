@@ -620,7 +620,7 @@
 			"name":				"Util",
 			"url":				"https://github.com/UG4/plugin_Util.git",
 			"repoType":			"git",
-			"defaultBranch":		"master",
+			"defaultBranch":		"main",
 			"prefix":			"plugins",
 			"license":			"lgpl_ug4",
 			"categories":			["ug4", "plugins"],
