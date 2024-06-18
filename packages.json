@@ -688,7 +688,7 @@
 				}
 			]
 		},
-		                {
+		 {
                         "name":                         "GeoJSON",
                         "url":                          "https://github.com/UG4/tool_GeoJSON.git",
                         "repoType":                     "git",
@@ -706,7 +706,7 @@
                                         ]
                                 }
                         ]
-                },
+                }
 
 	]
 }
