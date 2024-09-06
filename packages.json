@@ -220,6 +220,25 @@
 			]
 		},
 		{
+            "name":                         "GeoJSON",
+            "url":                          "https://github.com/UG4/tool_GeoJSON.git",
+            "repoType":                     "git",
+            "defaultBranch":        "main",
+            "prefix":                       "tools",
+            "license":                      "",
+            "categories":           ["ug4", "tools"],
+            "dependencies":[
+                {
+                    "packages":     [
+                        {
+                        	"name":         "ProMesh",
+                            "branch":       "master"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
 			"name":				"JSONForUG4",
 			"url":				"https://github.com/UG4/external_JSON.git",
 			"repoType":			"git",
@@ -687,26 +706,7 @@
 					]
 				}
 			]
-		},
-		 {
-                        "name":                         "GeoJSON",
-                        "url":                          "https://github.com/UG4/tool_GeoJSON.git",
-                        "repoType":                     "git",
-                        "defaultBranch":        "main",
-                        "prefix":                       "tools",
-                        "license":                      "",
-                        "categories":           ["ug4", "tools"],
-                        "dependencies":[
-                                {
-                                        "packages":     [
-                                                {
-                                                        "name":         "ProMesh",
-                                                        "branch":       "master"
-                                                }
-                                        ]
-                                }
-                        ]
-                }
+		}	
 
 	]
 }
