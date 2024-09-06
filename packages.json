@@ -655,6 +655,33 @@
 			]
 		},
 		{
+			"name":				"unsat_flow",
+			"url":				"https://github.com/UG4/unsat_flow.git",
+			"repoType":			"git",
+			"defaultBranch":	"main",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "apps"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						},
+						{
+							"name":		"Richards",
+							"branch":	"master"
+						},
+						{
+							"name":		"JSONToolkit",
+							"branch":	"main"
+						}
+					]
+				}
+			]
+		},
+		{
 			"name":				"ParameterEstimation",
 			"url":				"https://github.com/UG4/plugin_ParameterEstimation.git",
 			"repoType":			"git",
