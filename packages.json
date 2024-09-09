@@ -411,7 +411,48 @@
 				}
 			]
 		},
-
+		{
+			"name":				"Poroelasticity",
+			"url":				"https://github.com/UG4/plugin_Poroelasticity.git",
+			"repoType":			"git",
+			"defaultBranch":	"main",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"JSONToolkit",
+							"branch":	"main"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name":				"poroelasticity",
+			"url":				"https://github.com/UG4/app_poroelasticity.git",
+			"repoType":			"git",
+			"defaultBranch":	"main",
+			"prefix":			"apps",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "apps"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"Poroelasticity",
+							"branch":	"main"
+						},
+						{
+							"name":		"Limex",
+							"branch":	"main"
+						}
+					]
+				}
+			]
+		},
 		{
 			"name":				"ProMesh",
 			"url":				"https://github.com/UG4/plugin_ProMesh.git",
