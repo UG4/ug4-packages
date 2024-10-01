@@ -415,7 +415,7 @@
 			"name":				"Poroelasticity",
 			"url":				"https://github.com/UG4/plugin_Poroelasticity.git",
 			"repoType":			"git",
-			"defaultBranch":	"main",
+			"defaultBranch":	"master",
 			"prefix":			"plugins",
 			"license":			"lgpl_ug4",
 			"categories":		["ug4", "plugins"],
