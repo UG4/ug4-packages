@@ -434,7 +434,7 @@
 			"name":				"poroelasticity",
 			"url":				"https://github.com/UG4/app_poroelasticity.git",
 			"repoType":			"git",
-			"defaultBranch":	"main",
+			"defaultBranch":	"master",
 			"prefix":			"apps",
 			"license":			"lgpl_ug4",
 			"categories":		["ug4", "apps"],
