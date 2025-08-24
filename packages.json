@@ -700,7 +700,7 @@
 			"url":				"https://github.com/UG4/unsat_flow.git",
 			"repoType":			"git",
 			"defaultBranch":	"main",
-			"prefix":			"plugins",
+			"prefix":			"apps",
 			"license":			"lgpl_ug4",
 			"categories":		["ug4", "apps"],
 			"dependencies":[
