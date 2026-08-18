@@ -94,7 +94,15 @@
 							"branch":	"master"
 						},
 						{
+							"name":		"LevelSet",
+							"branch":	"master"
+						},
+						{
 							"name":		"Richards",
+							"branch":	"master"
+						},
+						{
+							"name":		"Smile",
 							"branch":	"master"
 						},
 						{
@@ -343,7 +351,26 @@
 			]
 
 		},
-	    	{
+		{
+			"name":				"LevelSet",
+			"url":				"https://github.com/UG4/plugin_LevelSet.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+	    {
 			"name":				"Limex",
 			"url":				"https://github.com/UG4/plugin_Limex.git",
 			"repoType":			"git",
@@ -624,7 +651,25 @@
 				}
 			]
 		},
-
+		{
+			"name":				"Smile",
+			"url":				"https://github.com/UG4/plugin_Smile.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"individual",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
 		{
 			"name":				"TemplatePlugin",
 			"url":				"https://github.com/UG4/plugin_TemplatePlugin.git",
