@@ -71,7 +71,7 @@
 		},
 
   		{
-			"name":				"DensityDrivenFlow",
+			"name":				"d3f",
 			"url":				"https://github.com/UG4/plugin_d3f.git",
 			"repoType":			"git",
 			"defaultBranch":	"main",
