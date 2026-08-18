@@ -118,7 +118,7 @@
 				{
 					"packages":	[
 						{
-							"name":		"DensityDrivenFlow",
+							"name":		"d3f",
 							"branch":	"main"
 						}
 					]
