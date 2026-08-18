@@ -107,6 +107,26 @@
 		},
 
 		{
+			"name":				"d3f_plusplus_app",
+			"url":				"https://github.com/UG4/app_d3f.git",
+			"repoType":			"git",
+			"defaultBranch":	"main",
+			"prefix":			"apps",
+			"license":			"",
+			"categories":		["ug4", "apps"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"DensityDrivenFlow",
+							"branch":	"main"
+						}
+					]
+				}
+			]
+		},
+
+		{
 			"name":				"DocuGen",
 			"url":				"https://github.com/UG4/plugin_DocuGen.git",
 			"repoType":			"git",
