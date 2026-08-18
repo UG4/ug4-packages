@@ -70,6 +70,42 @@
 			]
 		},
 
+  		{
+			"name":				"DensityDrivenFlow",
+			"url":				"https://github.com/UG4/plugin_d3f.git",
+			"repoType":			"git",
+			"defaultBranch":	"main",
+			"prefix":			"plugins",
+			"license":			"eupl",
+			"categories":		["ug4", "plugins"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						},
+						{
+							"name":		"ConvectionDiffusion",
+							"branch":	"master"
+						},
+						{
+							"name":		"Limex",
+							"branch":	"master"
+						},
+						{
+							"name":		"Richards",
+							"branch":	"master"
+						},
+						{
+							"name":		"SuperLU6",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
 		{
 			"name":				"DocuGen",
 			"url":				"https://github.com/UG4/plugin_DocuGen.git",
@@ -89,7 +125,7 @@
 				}
 			]
 		},
-
+	  
 		{
 			"name":				"EigenForUG4",
 			"url":				"https://github.com/UG4/external_EigenForUG4.git",
